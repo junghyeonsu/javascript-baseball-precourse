@@ -27,6 +27,7 @@ function BaseballGame () {
     });
     if (input.length !== 3 || isNaNArray.includes(true) || set.size !== 3) {
       alert('입력 값을 확인해주세요');
+      $('#user-input').value = '';
       return;
     }
   };
