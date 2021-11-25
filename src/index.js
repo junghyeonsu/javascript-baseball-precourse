@@ -1,9 +1,9 @@
-import Computer from './Computer.js';
-import { $ } from './utils/index.js';
+import { $, pickUniqueNumbers } from './utils/index.js';
+import { START_NUMBER_RANGE, END_NUMBER_RANGE, COUNT_OF_NUMBERS } from '../constants.js';
 
 export default class BaseballGame {
   constructor () {
-    this.computer = new Computer();
+    this.answer = pickUniqueNumbers(START_NUMBER_RANGE, END_NUMBER_RANGE, COUNT_OF_NUMBERS);
   }
 
   init () {
