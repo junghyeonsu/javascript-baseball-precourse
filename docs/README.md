@@ -1,8 +1,8 @@
 # 📌 기능들
 
-### 컴퓨터가 1부터 9까지 서로 다른 임의의 수 3개를 뽑게 한다.
+### ✅ 컴퓨터가 1부터 9까지 서로 다른 임의의 수 3개를 뽑게 한다.
 
-- [ ] [`MissionUtils` 라이브러리](https://github.com/woowacourse-projects/javascript-mission-utils#mission-utils)를 이용해서 1부터 9까지 서로 다른 수를 뽑는 함수를 만든다.
+- [x] [`MissionUtils` 라이브러리](https://github.com/woowacourse-projects/javascript-mission-utils#mission-utils)를 이용해서 1부터 9까지 서로 다른 수를 뽑는 함수를 만든다.
 
 ### 게임 플레이어가 3개의 숫자를 입력받도록 한다.
 
